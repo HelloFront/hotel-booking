@@ -1,0 +1,51 @@
+@media screen and (max-width: 1090px) {
+    .wrapper {
+        width: 80%;
+    }
+    body .section-card-hotel .items .item .wrapper div .right-side {
+        height: 70px;
+    }
+    body .section-card-hotel .items .item .wrapper div .left-side img  {
+        width: 150px;
+    }
+    body .section-card-hotel .items .item .wrapper div .left-side {
+        flex-direction: column;
+    }
+    body .section-card-hotel .items .item .wrapper div .left-side .info .top .description {
+        width: 100%;
+        height: 50px;
+        overflow: scroll;
+    }
+    body .section-card-hotel .items .item .wrapper div .left-side .info button {
+        margin: 10px 0;
+    }
+    body .section-card-hotel .items .item .wrapper div .left-side .info .top .name {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .wrapper {
+        width: 100%;
+    }
+    body header nav .wrapper .search {
+        width: 70%;
+    }
+    body .section-card-hotel .items .item .wrapper div .right-side {
+        height: 70px;
+    }
+    body .section-card-hotel .items .item .wrapper div .left-side img  {
+        width: 150px;
+    }
+    body .section-card-hotel .items .item .wrapper div .left-side {
+        flex-direction: column;
+    }
+    body .section-card-hotel .items .item .wrapper div .left-side .info .top .description {
+        display: none;
+    }
+    body .section-card-hotel .items .item .wrapper div .left-side .info button {
+        margin: 10px 0;
+    }
+    body .section-card-hotel .items .item .wrapper div .left-side .info .top .name {
+        font-size: 20px;
+    }
+}
